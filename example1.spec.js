@@ -5,4 +5,5 @@ test('Playwright Test1', async ({ browser }) => {
     const page = await context.newPage();
     await page.goto('https://www.google.com/');
     console.log(await page.title());
+    console.log("This is my first Playwright Test");
 });
